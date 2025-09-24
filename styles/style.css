@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Quicksand:wght@300;600&display=swap');
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #ced4da;
+    --cor-terciaria: #4a4e69;
+    --cor-quarternaria: #22223b;
+    --cor-filmes: #535252;
+
+    --fonte-principal: "Epunda Slab", serif;
+    --fonte-secundaria: "Quicksand", sans-serif;
+}
+/*INICIO*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   box-sizing: border-box;
+   background-color: var(--cor-quarternaria);
+
+}
+
+.topo {
+    background-color: var(--cor-terciaria);
+    padding: 2% 0% 2% 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo_titulo {
+    color: var(--cor-secundaria);
+    background-color: var(--cor-terciaria);
+    font-family: var(--fonte-principal);
+    margin: 0% 0% 0% 2%;
+}
+
+.titulos_navegacao {
+   display: flex;
+   justify-content: center;
+   gap: 25px;
+   margin: 0% 50% 0% 0%;
+}
+
+.conteudo_titulo_link {
+   text-decoration: none;
+   font-family: var(--fonte-secundaria);
+   color: var(--cor-secundaria);
+   font-size: 25px;
+   font-weight: 600;
+}
+
+.conteudo_imagens {
+   display: flex;
+   justify-content: center;
+   width: 300px;
+   height: 350px;
+   padding: 10% 15% 5% 40%;
+   gap: 50px;
+}
+
+.imagens_inicio {
+   border-radius: 8px;
+   box-shadow: 0 0 20px rgba(241, 143, 143, 0.4);
+
+}
+/*FILMES*/
+.conteudo_filmes {
+   padding: 15px;
+}
+
+.galeria_filmes {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
+   justify-content: center;
+   padding: 20px 20px;
+}
+
+.conteudo_filme_texto_imagem {
+   width: 250px;
+   text-align: center;
+   margin: 15px;
+}
+.conteudo_filme_texto_imagem img {
+   width: 100%;
+   height: auto;
+   border-radius: 8px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+.titulo_filme {
+   white-space: nowrap;
+   overflow: visible;
+   text-overflow: unset; 
+   font-family: var(--fonte-principal);
+   font-size: 25px;
+   color: var(--cor-secundaria);
+   margin-bottom: 8px;
+}
