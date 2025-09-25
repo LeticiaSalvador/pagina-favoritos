@@ -88,10 +88,112 @@ body {
    width: 100%;
    height: auto;
    border-radius: 8px;
-   box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+   box-shadow: 0 0 20px rgba(241, 143, 143, 0.4);
 }
 
 .titulo_filme {
+   white-space: nowrap;
+   overflow: visible;
+   text-overflow: unset; 
+   font-family: var(--fonte-principal);
+   font-size: 25px;
+   color: var(--cor-secundaria);
+   margin-bottom: 8px;
+}
+/*SERIES*/
+.conteudo_series {
+   padding: 15px;
+}
+
+.galeria_series {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
+   justify-content: center;
+   padding: 20px 20px;
+}
+
+.conteudo_serie_texto_imagem {
+   width: 250px;
+   text-align: center;
+   margin: 15px;
+}
+.conteudo_serie_texto_imagem img {
+   width: 100%;
+   height: auto;
+   border-radius: 8px;
+   box-shadow: 0 0 20px rgba(241, 143, 143, 0.4);
+}
+
+.titulo_serie {
+   white-space: nowrap;
+   overflow: visible;
+   text-overflow: unset; 
+   font-family: var(--fonte-principal);
+   font-size: 25px;
+   color: var(--cor-secundaria);
+   margin-bottom: 8px;
+}
+/*DESENHOS*/
+.conteudo_desenhos {
+   padding: 15px;
+}
+
+.galeria_desenhos {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
+   justify-content: center;
+   padding: 20px 20px;
+}
+
+.conteudo_desenho_texto_imagem {
+   width: 250px;
+   text-align: center;
+   margin: 15px;
+}
+.conteudo_desenho_texto_imagem img {
+   width: 100%;
+   height: auto;
+   border-radius: 8px;
+   box-shadow: 0 0 20px rgba(241, 143, 143, 0.4);
+}
+
+.titulo_desenho {
+   white-space: nowrap;
+   overflow: visible;
+   text-overflow: unset; 
+   font-family: var(--fonte-principal);
+   font-size: 25px;
+   color: var(--cor-secundaria);
+   margin-bottom: 8px;
+}
+/*DORAMAS*/
+.conteudo_doramas {
+   padding: 15px;
+}
+
+.galeria_doramas {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
+   justify-content: center;
+   padding: 20px 20px;
+}
+
+.conteudo_dorama_texto_imagem {
+   width: 250px;
+   text-align: center;
+   margin: 15px;
+}
+.conteudo_dorama_texto_imagem img {
+   width: 100%;
+   height: auto;
+   border-radius: 8px;
+   box-shadow: 0 0 20px rgba(241, 143, 143, 0.4);
+}
+
+.titulo_dorama {
    white-space: nowrap;
    overflow: visible;
    text-overflow: unset; 
